@@ -40,6 +40,16 @@ This happens when copying/pasting from editors like VSCode or websites that repl
 
 Installation
 
+Prerequisites - Set time zone to corret zone and set NTP to true
+
+```bash
+sudo timedatectl set-ntp true
+
+sudo timedatectl set-timezone Europe/London
+```
+
+
+
 1. Backup your current .zshrc:
    cp ~/.zshrc ~/.zshrc.backup
 
